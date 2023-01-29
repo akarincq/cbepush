@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1673347434010
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1673347596199
+  login: 1673341842111
+money: '0.0'
+last-account-name: MrZhu_Zhujun
+lastlocation:
+  world: ec304505-e122-4456-b7e7-bb7dea474925
+  world-name: world
+  x: 102.61990810863094
+  y: 97.67178125348626
+  z: 154.05247186665096
+  yaw: -59.47180938720703
+  pitch: 71.2498550415039
+logoutlocation:
+  world: ec304505-e122-4456-b7e7-bb7dea474925
+  world-name: world
+  x: 9.408559288580449
+  y: 70.74395341196204
+  z: 76.59939975541731
+  yaw: -88.68585205078125
+  pitch: 50.55265426635742

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1673364133882
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1673434889694
+  login: 1673431649028
+money: '0.0'
+last-account-name: Shu_Bao
+lastlocation:
+  world: 082c5ff2-f10d-4413-832f-e53879cc0ca7
+  world-name: world
+  x: -139.6842555916711
+  y: 93.0
+  z: 173.46480626548146
+  yaw: -352.26666259765625
+  pitch: 7.649776458740234
+logoutlocation:
+  world: 082c5ff2-f10d-4413-832f-e53879cc0ca7
+  world-name: world
+  x: -161.03252736571724
+  y: 108.27702855794196
+  z: 205.97073068636507
+  yaw: 169.69818115234375
+  pitch: 27.449857711791992

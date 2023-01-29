@@ -1,0 +1,178 @@
+menu-settings:
+  name: '&b&lCBE2&a&l领地菜单'
+  rows: 6
+  open-with-item:
+
+
+TreeDiagramA1:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 1
+  POSITION-Y: 1
+
+
+TreeDiagramA2:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 2
+  POSITION-Y: 1
+
+
+TreeDiagramA3:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 3
+  POSITION-Y: 1
+
+
+TreeDiagramA4:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 4
+  POSITION-Y: 1
+
+
+TreeDiagramA5:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 5
+  POSITION-Y: 1
+
+
+TreeDiagramA6:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 6
+  POSITION-Y: 1
+
+
+TreeDiagramA7:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 7
+  POSITION-Y: 1
+
+
+TreeDiagramA8:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 8
+  POSITION-Y: 1
+
+
+TreeDiagramA9:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 9
+  POSITION-Y: 1
+
+
+Server_Info:
+  NAME: '&l&e领地信息'
+  LORE:
+    - ''
+    - '&e你的领地： &b%ultimateclaims_claims%'
+    - '&e领地能量： &a%ultimateclaims_totalpower%'
+    - ''
+  MATERIAL: grass_block
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2
+
+
+Player_Info:
+  NAME: '&e声明脚下领地'
+  LORE:
+    - ''
+    - '&e将要执行指令： &a/c claim'
+    - '&e说明： '
+    - '&a此指令将会将你所在的区块划入'
+    - '&a你的领地范围， 如果你没有领地'
+    - '&a则会创建一个全新的领地， 建议'
+    - '&a搭配F3+G使用'
+    - ''
+  MATERIAL: iron pickaxe
+  KEEP-OPEN: false
+  ACTIONS:
+    - 'c claim'
+  POSITION-X: 2
+  POSITION-Y: 4
+
+Claim_Menu:
+  NAME: '&e领地菜单'
+  LORE:
+    - ''
+    - '&e介绍： &a本选项用于打开领地菜单'
+    - '&e领地插件介绍：'
+    - '&a领地插件为&lUltimateClaims&a,玩家可'
+    - '&a以在领地内放置能量塔来维持领地'
+    - '&a能量塔使用绿宝石来进行充能'
+    - ''
+  MATERIAL: grass_block
+  KEEP-OPEN: true
+  ACTIONS:
+    - 'cc open example'
+  POSITION-X: 4
+  POSITION-Y: 4
+
+TreeDiagramF1:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 1
+  POSITION-Y: 6
+
+
+TreeDiagramF2:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 2
+  POSITION-Y: 6
+
+
+TreeDiagramF3:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 3
+  POSITION-Y: 6
+
+
+TreeDiagramF4:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 4
+  POSITION-Y: 6
+
+
+TreeDiagramF5:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 5
+  POSITION-Y: 6
+
+
+TreeDiagramF6:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 6
+  POSITION-Y: 6
+
+
+TreeDiagramF7:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 7
+  POSITION-Y: 6
+
+
+TreeDiagramF8:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 8
+  POSITION-Y: 6
+
+
+TreeDiagramF9:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 9
+  POSITION-Y: 6

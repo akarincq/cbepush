@@ -1,0 +1,45 @@
+# Translation config for the AuthMe help, e.g. when /authme help or /authme help register is called
+
+# -------------------------------------------------------
+# List of texts used in the help section
+common:
+    header: '==========[ AuthMeReloaded 使用菜单 ]=========='
+    optional: '选项'
+    hasPermission: '有这项权限'
+    noPermission: '没有权限'
+    default: '默认'
+    result: '后果'
+    defaultPermissions:
+        notAllowed: '无权限'
+        opOnly: '只有OP才能进行这项操作'
+        allowed: '所有人都能操作'
+
+# -------------------------------------------------------
+# Titles of the individual help sections
+# Set the translation text to empty text to disable the section, e.g. to hide alternatives:
+#   alternatives: ''
+section:
+    command: '指令'
+    description: '简介'
+    detailedDescription: '说明'
+    arguments: '变量'
+    permissions: '权限'
+    alternatives: '选项'
+    children: '指令'
+
+# -------------------------------------------------------
+# You can translate the data for all commands using the below pattern.
+# For example to translate /authme reload, create a section "authme.reload", or "login" for /login
+# If the command has arguments, you can use arg1 as below to translate the first argument, and so forth
+# Translations don't need to be complete; any missing section will be taken from the default silently
+# Important: Put main commands like "authme" before their children (e.g. "authme.reload")
+commands:
+    authme.register:
+        description: '注册一名玩家'
+        detailedDescription: '使用指定的密码注册指定的玩家.'
+        arg1:
+            label: '玩家'
+            description: '玩家名'
+        arg2:
+            label: '密码'
+            description: '密码'

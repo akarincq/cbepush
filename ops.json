@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "ea8a5fd5-8f94-3cca-8d4a-c699c134ecbf",
+    "name": "chun_qiucq\u0027",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "fbd32027-786a-334f-8780-36845dad2fcd",
+    "name": "Chun_QiuCQ",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "2f4b33d7-c47a-3c7d-ba17-0411efe24f38",
+    "name": "Shu_Bao",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

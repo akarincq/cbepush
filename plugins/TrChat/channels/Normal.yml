@@ -1,0 +1,46 @@
+Options:
+  Target: ALL
+  Auto-Join: true
+Formats:
+  - condition: ~
+    priority: 100
+    msg:
+      default-color: '&f'
+      hover: '&7聊天记录时间: %server_time_h:mm:ss a%'
+    prefix:
+      world:
+        text: '&7[&a%ultimateclaims_claims%&7]'
+        hover: |-
+          &r
+          &6▪ &6所属领地: &a%ultimateclaims_claims%
+          &r
+          &6▪ &6领地能量: %ultimateclaims_totalpower%
+          &r
+        command: ''
+      part-before-player:
+        text: ' '
+      player:
+        - condition: 'player op'
+          text: '&e%player_name%'
+          hover: |-
+            &r
+            &8▪ &7玩家延迟: &3%player_ping% Ms
+            &8▪ &7玩家健康: &c%player_health_rounded% ❤
+            &r
+            &6▶ &e单击玩家名称与他私聊
+            &r
+          suggest: '/tell %player_name% '
+        - text: '&2%player_name%'
+          hover: |-
+            &r
+            &8▪ &7玩家延迟: &3%player_ping% Ms
+            &8▪ &7玩家健康: &c%player_health_rounded% ❤
+            &r
+            &6▶ &e单击玩家名称与他私聊
+            &r
+          suggest: '/tell %player_name% '
+      part-before-msg:
+        text: '&7: '
+    suffix:
+      example:
+        text: ''

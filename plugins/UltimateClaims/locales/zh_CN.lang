@@ -1,0 +1,164 @@
+# General Messages
+general:
+  nametag:
+    prefix: '&8[&e领地&8]'
+  word:
+    none: '居无定所'
+  status:
+    'true': 开启
+    'false': 关闭
+  claim:
+    defaultname: '%name%''的领地'
+    powercell:
+      low: '&c剩余能量较低!'
+      message: '&c%time% &f剩余'
+    dissolve: '&f你的领地 &c%claim% &f已解散.'
+    returnfunds: '&c%amount%&f 已返还与你.'
+  notanumber: '&f所输入的值 &c%value% &f不是一个数字'
+  notenoughfunds: '&f你没有足够的CBC.'
+  powercellrecipe: '&c能量塔合成配方'
+  notenoughfundspowercell: '&c这个能量塔没有足够的CBC剩余了, 它只剩%balance%的CBC了.'
+  interface:
+    exit: '&c左键退出'
+    back: '&c右键返回'
+    next: '&c下一页'
+    previous: '&c上一页'
+    current: '&f当前: &c%current%&7.'
+# Command Messages
+command:
+  general:
+    notapartclaim: '&f你不是该领地的一员或者该领地不存在.'
+    noclaim: '&f你必须加入一个领地才能这么做.'
+    noplayer: '&f该玩家不存在或者现在不在线.'
+    notinclaim: '&f该玩家并不在你的领地中.'
+    claimed: '&f这个区块已被认领.'
+    notclaimed: '&f这个区块尚未被认领.'
+    notyourclaim: '&f这个区块已被其他玩家认领.'
+  invite:
+    invited: '&f你已被邀请加入 &c%claim%&f. 发送命令 &c/c accept &f来同意这个邀请.'
+    invite: '&f你已邀请 &c%name% &f来加入你的领地&7.'
+    notself: '&f你不能邀请你自己.'
+    already: '&f这个玩家已经是你的领地的一员了.'
+    alreadyinvited: '&f这个玩家正在被其他领地邀请加入.'
+  addmember:
+    added: '&f你已加入领地 &c%claim%&f.'
+    add: '&f你将 &c%name% &f添加到了你的领地成员中.'
+  kick:
+    kicked: '&f你被踢出领地 &c%claim%&f.'
+    kick: '&f你踢出了 &c%name% &f从领地 &c%claim%&f 中.'
+    notself: '&f你不能踢出你自己.'
+  uan:
+    notself: '&f你不能封禁你自己.'
+  ban:
+    banned: '&f你已被领地 &c%claim%&f 封禁.'
+    ban: '&f你封禁了 &c%name% &ffrom &c%claim%&f.'
+  unban:
+    unbanned: '&f你已被领地 &c%claim%&f 解除封禁.'
+    unban: '&f你解除封禁了 &c%name% &f从领地 &c%claim%&f 中.'
+    notself: '&f你不能解除封禁你自己.'
+  accept:
+    none: '&f你现在没有任何邀请.'
+    success: '&f你现在是 %claim%&f 的一员了.'
+    accepted: '&c%name% &f接受了你的邀请.'
+    maxed: '&f这个领地的人数已经满了.'
+  claim:
+    success: '&f你所在的区块已经成为了你的领地,你可以在网页地图中看到这片领地.'
+    nocell: '&f在创建新的领地之前，你需要制作能量塔...'
+    noregion: '&f这个区域已经被保护了，你不能认领!'
+    info: '&f你有 &c%time% &f时间来创建能量塔... 能量塔可以维持你的领地保护，如果你的能量塔能量不足，你的领地将会被解散.  要想创建能量塔，你需要发送指令 &c/c recipe&f 来查看合成配方. 然后将它放置到你认领的领地中的一个箱子内的正中间位置.'
+    nottouching: '&f你认领的位置必须与你已有的领地相接.'
+    toomany: '&f你只能认领 &c%amount% &f个区块.'
+    disabledworld: '&f你不能在这个世界这么做.'
+  unclaim:
+    success: '&f你已取消认领该区块.'
+    powercell: '&f请先移走你的能量塔.'
+  removeclaim:
+    success: '&f你取消认领了 %claim%.'
+  leave:
+    youleft: '&f你退出了领地 &c%claim%&f.'
+    left: '&c%player% &f退出了领地 &c%claim%&f.'
+    owner: '&f你不能退出你的领地.'
+  lock:
+    locked: '&f你锁住了你的领地.'
+    unlocked: '&f你解锁了你的领地.'
+  sethome:
+    set: '&f你设置了你的领地的名称.'
+  name:
+    set: '&f你的领地的名字已修改为 %name%'
+  home:
+    none: '&f这个领地还没有设置家的位置...'
+    success: '&f你已成功传送到所在领地的家的位置.'
+  show:
+    start: '&f领地可视化 &c已开启.'
+    stop: '&f领地可视化 &c已关闭.'
+# Interface Messages
+interface:
+  powercell:
+    economytitle: '&f剩余CBC数量: &6%balance%&f.'
+    economylore: '&f左键储存CBC.|&f右键取出CBC|&f钻石提供1小时能量.|&f铁锭提供30分钟能量.|&f绿宝石提供1天能量'
+    valuablestitle: '&f物品储存: &c%time%&f.'
+    totaltitle: '&f总能量: &c%time%&f.'
+    addfunds: '&f输入一个CBC数量以储存.'
+    infotitle: '&c信息'
+    infolore: '&f你认领了 &c%chunks% &f块|&f区块，拥有 &c%members% &f成员.'
+    banstitle: '&c封禁'
+    banslore: '&f查看你的领地的被封禁成员.'
+    memberstitle: '&c成员'
+    memberslore: '&f查看你的领地的成员.'
+    settingstitle: '&c设置'
+    settingslore: '&f更改你的领地设置.'
+    takefunds: '&7输入一个CBC数量以取出.'
+  members:
+    title: 成员
+    statslore: '&f总成员数: &c%totalmembers%&f.|&f最多成员数: &c%maxmembers%&f.|&f成员数: &c%members%&f.'
+    skulllore: '&f角色: &c%role%|&f游玩时间: &c%playtime%|&f上一次游玩: &c%membersince%'
+    changetypetitle: '&f更改类型'
+    changetypelore: '&f当前: &c%current%|&f点击以更改类型.'
+    statstitle: '&f信息'
+    changesorttitle: '&f更改分类'
+    changesortlore: '&f当前: &c%current%|&f点击以更改分类.'
+    visitorsettingstitle: '&c访问者设置'
+    visitorsettingslore: '&f点击以设置访问者的权限.'
+    membersettingstitle: '&c成员设置'
+    membersettingslore: '&f点击以设置成员的权限.'
+  permsettings:
+    title: '%role% 设置'
+    breaktitle: '&c破坏方块'
+    placetitle: '&c放置方块'
+    interacttitle: '&c交互'
+    mobkilltitle: '&c击杀生物'
+    redstonetitle: '&c红石'
+    doorstitle: '&c门'
+    tradingtitle: '&c交易'
+  bans:
+    title: 封禁
+    infotitle: '&f信息'
+    skulllore: '&f点击以解除封禁.'
+    infolore: '&f封禁数量: &c%bancount%&f.'
+  settings:
+    title: 设置
+    hostilemobspawningtitle: '&c敌对生物生成'
+    firespreadtitle: '&c火势蔓延'
+    pvptitle: '&cPVP'
+    mobgriefingtitle: '&c生物活动'
+    leafdecaytitle: '&c树叶消失'
+    tnttitle: '&6&lTNT爆炸'
+    flytitle: '&6&l飞行'
+  recipe:
+    title: 能量塔配方
+# Event Messages
+event:
+  general:
+    nopermission: '&f你没有足够的权限.'
+  invite:
+    expired: '&f你的邀请已过期...'
+  claim:
+    enter: '&f你进入了领地 &c%claim%&f.'
+    exit: '&f你离开了领地 &c%claim%&f.'
+    locked: '&f领地的主人禁止你进入该领地'
+  powercell:
+    success: '&f你放置了一个能量塔. 在里面放置钻石、铁锭、绿宝石以维持它的运作,你也可以将能量塔作为银行,向里面存入CBC.'
+    failopen: '&f你必须成为领地的主人才能这么做.'
+    lowpower: '&f你的领地 &c%claim% &f缺少能量了!'
+    superpower: '&f你的领地 &c%claim% &f仍然缺少能量，有被解散的风险!'
+    destroyed: '&c能量塔被毁, 被毁的能量塔返还了你存储的%balance%CBC.'

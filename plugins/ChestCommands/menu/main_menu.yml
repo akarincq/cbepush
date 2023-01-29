@@ -1,0 +1,180 @@
+menu-settings:
+  name: '&b&lCBE2&a&l服务器主菜单'
+  rows: 6
+  open-with-item:
+
+
+TreeDiagramA1:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 1
+  POSITION-Y: 1
+
+
+TreeDiagramA2:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 2
+  POSITION-Y: 1
+
+
+TreeDiagramA3:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 3
+  POSITION-Y: 1
+
+
+TreeDiagramA4:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 4
+  POSITION-Y: 1
+
+
+TreeDiagramA5:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 5
+  POSITION-Y: 1
+
+
+TreeDiagramA6:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 6
+  POSITION-Y: 1
+
+
+TreeDiagramA7:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 7
+  POSITION-Y: 1
+
+
+TreeDiagramA8:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 8
+  POSITION-Y: 1
+
+
+TreeDiagramA9:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 9
+  POSITION-Y: 1
+
+
+Server_Info:
+  NAME: '&l&e服务器信息'
+  LORE:
+    - ''
+    - '&e服务器名称： &b&lCrashBlockEarth2'
+    - '&e目前在线人数： &a%server_online%'
+    - '&e当前节点延迟： &a%player_ping%'
+    - '&e服务器TPS： &a%server_tps%'
+    - '&e服务器版本： &a v2.0.0(基于Arclight 1.16.5)'
+    - ''
+  MATERIAL: player_head
+  SKULL-OWNER: Kevos
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2
+
+
+Player_Info:
+  NAME: '&e玩家信息'
+  LORE:
+    - ''
+    - '&e玩家名称： &a%player_name%'
+    - '&e所属领地： &a%ultimateclaims_claims%'
+    - '&e玩家血量： &a%player_health%'
+    - '&e玩家等级： &a%player_level%'
+    - '&e加入&bCBE&e的时间： &a%player_first_join_date%'
+    - ''
+  MATERIAL: player_head
+  SKULL-OWNER: '%player_name%'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 4
+
+Claim_Menu:
+  NAME: '&e领地菜单'
+  LORE:
+    - ''
+    - '&e介绍： &a本选项用于打开领地菜单'
+    - '&e领地插件介绍：'
+    - '&a领地插件为&lUltimateClaims&a,玩家可'
+    - '&a以在领地内放置能量塔来维持领地'
+    - '&a能量塔使用绿宝石来进行充能'
+    - ''
+  MATERIAL: grass_block
+  KEEP-OPEN: true
+  ACTIONS:
+    - 'cc open claims_menu'
+  POSITION-X: 4
+  POSITION-Y: 4
+
+TreeDiagramF1:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 1
+  POSITION-Y: 6
+
+
+TreeDiagramF2:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 2
+  POSITION-Y: 6
+
+
+TreeDiagramF3:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 3
+  POSITION-Y: 6
+
+
+TreeDiagramF4:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 4
+  POSITION-Y: 6
+
+
+TreeDiagramF5:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 5
+  POSITION-Y: 6
+
+
+TreeDiagramF6:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 6
+  POSITION-Y: 6
+
+
+TreeDiagramF7:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 7
+  POSITION-Y: 6
+
+
+TreeDiagramF8:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 8
+  POSITION-Y: 6
+
+
+TreeDiagramF9:
+  NAME: ''
+  MATERIAL: gray_stained_glass_pane
+  POSITION-X: 9
+  POSITION-Y: 6

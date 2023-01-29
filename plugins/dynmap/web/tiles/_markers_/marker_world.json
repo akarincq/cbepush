@@ -1,0 +1,16 @@
+{"sets": {"UltimateClaims.chunks": {"hide": false,"circles": {}
+,"areas": {"1:-11;14": {"fillcolor": "#FF0000","ytop": 64.00,"color": "#FF0000","markup": false,"x": [-176.00,-160.00]
+,"weight": 3,"z": [224.00,240.00]
+,"ybottom": 64.00,"label": "Claim #1","opacity": 0.80,"fillopacity": 0.35,"desc": "<b>\u9886\u5730\u540D\u79F0:<u> \u6D4B\u8BD5\u9886\u5730<\/u><\/b><br \/>\n<b>\u9886\u5730\u6240\u6709\u8005<\/b>: Chun_QiuCQ<br \/>\n<b>\u9886\u5730\u80FD\u91CF\u5854\u5269\u4F59\u65F6\u95F4<\/b>: 2d 13h 5m"}
+}
+,"label": "Claimed Chunks","markers": {}
+,"lines": {}
+,"layerprio": 0}
+,"markers": {"hide": false,"circles": {}
+,"areas": {}
+,"label": "Markers","markers": {"_spawn_world": {"markup": false,"x": -166.00,"icon": "world","y": 85.00,"dim": "16x16","z": 181.00,"label": "Spawn"}
+}
+,"lines": {}
+,"layerprio": 0}
+}
+,"timestamp": 1673860843620}

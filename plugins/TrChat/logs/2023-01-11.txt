@@ -1,0 +1,38 @@
+[13:48:08] Chun_QiuCQ: 测试
+[13:53:31] Chun_QiuCQ: 测试
+[13:53:44] Chun_QiuCQ -> Chun_QiuCQ: 1111
+[13:54:23] Chun_QiuCQ -> Chun_QiuCQ: 1111
+[13:54:24] Chun_QiuCQ: 测试
+[13:55:08] Chun_QiuCQ: 测试
+[13:55:18] Chun_QiuCQ -> Chun_QiuCQ: 1
+[13:56:30] Chun_QiuCQ -> Chun_QiuCQ: 1
+[13:56:37] Chun_QiuCQ -> Chun_QiuCQ: 111
+[13:56:47] Chun_QiuCQ: @Chun_QiuCQ
+[13:58:03] Chun_QiuCQ: 测试
+[13:59:07] Chun_QiuCQ: 测试
+[13:59:20] Chun_QiuCQ -> Chun_QiuCQ: 1
+[14:01:59] Chun_QiuCQ: fuck
+[14:07:59] Shu_Bao: awa
+[14:08:09] Chun_QiuCQ: fuck
+[14:08:32] Chun_QiuCQ: fuck
+[14:08:39] Shu_Bao: 6
+[14:08:40] Chun_QiuCQ -> Shu_Bao: 私聊测试
+[14:09:04] Shu_Bao -> Chun_QiuCQ: SB
+[14:20:48] Chun_QiuCQ: test
+[14:21:52] Chun_QiuCQ -> Shu_Bao: 111
+[14:26:50] Chun_QiuCQ -> Shu_Bao: 11
+[14:26:52] Chun_QiuCQ -> Shu_Bao: 1111111
+[14:27:10] Chun_QiuCQ -> Chun_QiuCQ: 4
+[14:27:11] Chun_QiuCQ -> Chun_QiuCQ: 1
+[14:27:12] Chun_QiuCQ -> Chun_QiuCQ: 1
+[14:27:12] Chun_QiuCQ -> Chun_QiuCQ: 1
+[14:36:59] Chun_QiuCQ -> Shu_Bao: 1111
+[17:10:57] Chun_QiuCQ: %server_time_<format>%
+[17:11:04] Chun_QiuCQ: {server_time_<format>}
+[17:11:27] Chun_QiuCQ: {server_online}
+[18:48:50] Chun_QiuCQ: [i]
+[19:08:07] Chun_QiuCQ: 1
+[19:44:29] Chun_QiuCQ: 1
+[19:44:32] Chun_QiuCQ -> Chun_QiuCQ: 1
+[19:44:39] Chun_QiuCQ: 11
+[19:44:47] Chun_QiuCQ -> Chun_QiuCQ: test

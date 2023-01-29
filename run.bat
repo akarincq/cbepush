@@ -1,0 +1,1 @@
+"C:\Program Files\Java\dragonwell-17.0.4.0.4+8-GA\bin\java.exe" -Xmx4G -Xms4G -jar arclight-forge-1.16.5-1.0.24.jar -nogui

@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1673371713437
+  login: 1673370182674
+money: '0'
+last-account-name: FuyuShigure
+logoutlocation:
+  world: 082c5ff2-f10d-4413-832f-e53879cc0ca7
+  world-name: world
+  x: 296.4266219973564
+  y: 71.0
+  z: 587.8353003338167
+  yaw: -93.99700927734375
+  pitch: -10.649786949157715
